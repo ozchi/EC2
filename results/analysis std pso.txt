@@ -1,0 +1,9 @@
+Analysis of PSO runs on Ackley Function:
+Average best value: 16.00401415811205
+Standard deviation: 3.1886393383194687
+
+Variability in Outcomes: According to the chart data, there are significant differences between the results. Basically, all of them are above 15, and only 1 time is close to 0. This difference clearly indicates that different initialization has a significant effect on the final optimization results. This discrepancy may be caused by the complexity and multimodality of the Ackley function, as well as the stochastic character of the PSO.
+
+Proximity to Global Optimum: The global optimum of the Ackley function is 0. From the chart, it's evident that while most runs didn't achieve this optimum value, they are reasonably close, indicating the effectiveness of PSO implementation.
+
+swarm converge towards the global optimum: In the next few initializations, the whole swarm optimum gradually goes down, with a tendency to approach the global optimum.
